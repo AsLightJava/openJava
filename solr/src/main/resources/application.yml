@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+solrUrl: http://localhost:8983/solr/
+
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
